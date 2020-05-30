@@ -1,7 +1,7 @@
-package com.huruilei.api;
+package com.huruilei.user.api;
 
-import com.huruilei.vo.UserInfoModel;
-import com.huruilei.vo.UserModel;
+import com.huruilei.user.vo.UserInfoModel;
+import com.huruilei.user.vo.UserModel;
 
 /**
  * @author: huruilei

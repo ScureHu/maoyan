@@ -1,4 +1,4 @@
-package com.huruilei.vo;
+package com.huruilei.user.vo;
 
 import java.io.Serializable;
 

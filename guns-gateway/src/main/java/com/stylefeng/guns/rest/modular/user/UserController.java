@@ -1,16 +1,15 @@
 package com.stylefeng.guns.rest.modular.user;
 
 import com.alibaba.dubbo.config.annotation.Reference;
-import com.huruilei.api.UserAPI;
-import com.huruilei.vo.UserInfoModel;
-import com.huruilei.vo.UserModel;
+import com.huruilei.user.api.UserAPI;
+import com.huruilei.user.vo.UserInfoModel;
+import com.huruilei.user.vo.UserModel;
 import com.stylefeng.guns.rest.common.CurrentUser;
 import com.stylefeng.guns.rest.modular.vo.ResponseVO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import sun.awt.SunHints;
 
 /**
  * @author: huruilei
