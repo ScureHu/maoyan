@@ -40,7 +40,17 @@ spring:
       username: root
       password: root
       filters: log4j,wall,mergeStat
-
+  kafka:
+    bootstrap-servers: 192.168.90.174:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+    consumer:
+      group-id: default_consumer_group #群组ID
+      enable-auto-commit: true
+      auto-commit-interval: 1000
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 logging:
   level.root: info
   level.com.stylefeng: debug

@@ -3,9 +3,6 @@ package com.stylefeng.guns.rest.modular.film.vo;
 import com.huruilei.film.vo.CatVO;
 import com.huruilei.film.vo.SourceVO;
 import com.huruilei.film.vo.YearVO;
-import com.stylefeng.guns.api.film.vo.CatVO;
-import com.stylefeng.guns.api.film.vo.SourceVO;
-import com.stylefeng.guns.api.film.vo.YearVO;
 import lombok.Data;
 
 import java.util.List;

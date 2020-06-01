@@ -1,7 +1,6 @@
 package com.stylefeng.guns.rest.modular.film.service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.alibaba.dubbo.container.page.Page;
 import com.huruilei.film.api.FilmServiceApi;
 import com.huruilei.film.vo.BannerVO;
 import com.huruilei.film.vo.FilmInfo;
