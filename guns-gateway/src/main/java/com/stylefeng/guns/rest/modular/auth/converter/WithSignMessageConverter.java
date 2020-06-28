@@ -23,7 +23,7 @@ import java.lang.reflect.Type;
  * @author fengshuonan
  * @date 2017-08-25 15:42
  */
-public class    WithSignMessageConverter extends FastJsonHttpMessageConverter {
+public class  WithSignMessageConverter extends FastJsonHttpMessageConverter {
 
     @Autowired
     JwtProperties jwtProperties;
